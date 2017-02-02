@@ -4,9 +4,10 @@
   "description": "google search trends vizualization",
   "main": "index.js",
   "scripts": {
+    "prestart": "babel-node server/startMessage",
     "start": "npm-run-all --parallel open:src lint:watch",
-    "open:src": "babel-node server/server.js",
-    "lint":  "node_modules/.bin/esw webpack.config.* server src",
+    "open:src": "babel-node server/server",
+    "lint": "node_modules/.bin/esw webpack.config.* server src",
     "lint:watch": "npm run lint -- --watch",
     "test": "npm test"
   },
@@ -23,6 +24,7 @@
   "dependencies": {
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
+    "cat-me": "^1.0.3",
     "react": "15.0.2",
     "react-dom": "15.0.2",
     "react-redux": "4.4.5",
