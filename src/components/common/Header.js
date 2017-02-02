@@ -1,13 +1,14 @@
 import React, {Component, propTypes} from 'react';
-
+import { Link, IndexLink } from 'react-router';
 
 const Header = (props) => {
   return (
     <nav className="navbar">
       <ul>
-        <li>Home</li>
-        <li>Profile</li>
-        <li>Viz</li>
+
+        <p><IndexLink to="/" activeClassName="active">Home</IndexLink></p>
+        <p><Link to="charts" activeClassName="active">Charts</Link></p>
+
       </ul>
     </nav>
   );
