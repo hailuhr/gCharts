@@ -2,15 +2,16 @@ import React, {Component, propTypes} from 'react';
 var request = require('request');
 
 
-// var key = "Agfw8ufsd7WXUlgH7DNS73rJa"
-// var secret = "HOSleMfpOwldLKDR4JcN4BiK8XpbSbl76AQ90Izqau2DUL54m0"
+// var key =
+
+// var secret = 
 
 function test(){
 var qs = require('querystring')
   , oauth =
     { callback: 'http://mysite.com/callback/'
-    , consumer_key: "Agfw8ufsd7WXUlgH7DNS73rJa"
-    , consumer_secret: "HOSleMfpOwldLKDR4JcN4BiK8XpbSbl76AQ90Izqau2DUL54m0"
+    , consumer_key: key
+    , consumer_secret: secret
     }
   , url = 'https://api.twitter.com/oauth/request_token'
   ;
@@ -30,8 +31,8 @@ request.post({url:url, oauth:oauth}, function (e, r, body) {
   // after the user is redirected back to your server
   var auth_data = qs.parse(body)
     , oauth =
-      { consumer_key: "Agfw8ufsd7WXUlgH7DNS73rJa"
-      , consumer_secret: "HOSleMfpOwldLKDR4JcN4BiK8XpbSbl76AQ90Izqau2DUL54m0"
+      { consumer_key: key
+      , consumer_secret: secret
       , token: auth_data.oauth_token
       , token_secret: req_data.oauth_token_secret
       , verifier: auth_data.oauth_verifier
@@ -42,8 +43,8 @@ request.post({url:url, oauth:oauth}, function (e, r, body) {
     // ready to make signed requests on behalf of the user
     var perm_data = qs.parse(body)
       , oauth =
-        { consumer_key: "Agfw8ufsd7WXUlgH7DNS73rJa"
-        , consumer_secret: "HOSleMfpOwldLKDR4JcN4BiK8XpbSbl76AQ90Izqau2DUL54m0"
+        { consumer_key: key
+        , consumer_secret: secret
         , token: perm_data.oauth_token
         , token_secret: perm_data.oauth_token_secret
         }
