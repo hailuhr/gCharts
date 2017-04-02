@@ -5,13 +5,13 @@
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle gcharts@0.0.1~prestart: gcharts@0.0.1
 6 verbose lifecycle gcharts@0.0.1~prestart: unsafe-perm in lifecycle true
-7 verbose lifecycle gcharts@0.0.1~prestart: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/flatironschool/Development/code/projects/gCharts/node_modules/.bin:/Users/flatironschool/.rvm/gems/ruby-2.3.0/bin:/Users/flatironschool/.rvm/gems/ruby-2.3.0@global/bin:/Users/flatironschool/.rvm/rubies/ruby-2.3.0/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/flatironschool/.rvm/bin
+7 verbose lifecycle gcharts@0.0.1~prestart: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/flatironschool/Development/code/projects/gCharts/node_modules/.bin:/Users/flatironschool/.rvm/gems/ruby-2.3.0/bin:/Users/flatironschool/.rvm/gems/ruby-2.3.0@global/bin:/Users/flatironschool/.rvm/rubies/ruby-2.3.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/flatironschool/.rvm/bin
 8 verbose lifecycle gcharts@0.0.1~prestart: CWD: /Users/flatironschool/Development/code/projects/gCharts
 9 silly lifecycle gcharts@0.0.1~prestart: Args: [ '-c', 'babel-node server/startMessage' ]
 10 silly lifecycle gcharts@0.0.1~prestart: Returned: code: 0  signal: null
 11 info lifecycle gcharts@0.0.1~start: gcharts@0.0.1
 12 verbose lifecycle gcharts@0.0.1~start: unsafe-perm in lifecycle true
-13 verbose lifecycle gcharts@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/flatironschool/Development/code/projects/gCharts/node_modules/.bin:/Users/flatironschool/.rvm/gems/ruby-2.3.0/bin:/Users/flatironschool/.rvm/gems/ruby-2.3.0@global/bin:/Users/flatironschool/.rvm/rubies/ruby-2.3.0/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/flatironschool/.rvm/bin
+13 verbose lifecycle gcharts@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/flatironschool/Development/code/projects/gCharts/node_modules/.bin:/Users/flatironschool/.rvm/gems/ruby-2.3.0/bin:/Users/flatironschool/.rvm/gems/ruby-2.3.0@global/bin:/Users/flatironschool/.rvm/rubies/ruby-2.3.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/flatironschool/.rvm/bin
 14 verbose lifecycle gcharts@0.0.1~start: CWD: /Users/flatironschool/Development/code/projects/gCharts
 15 silly lifecycle gcharts@0.0.1~start: Args: [ '-c', 'npm-run-all --parallel open:src lint:watch' ]
 16 silly lifecycle gcharts@0.0.1~start: Returned: code: 1  signal: null
